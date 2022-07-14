@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <b> Make Remote work </b></title>
+    <link rel="stylesheet" href="make remote work.css">
+    <script src="https://kit.fontawesome.com/edb0211cab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar container">
+            <!-- <input type="checkbox" id="check">
+            <label for="check">
+                <img src="./make/icon-menu.svg" alt="" id="btn">
+                <img src="./make/icon-close-menu.svg" alt="" id="cancel">
+            </label> -->
+            <div class="logo"><h1>snap</h1></div>
+            <ul class="nav-list">
+                <li class="drop"><a href="#">Features <i class="fa-solid fa-angle-down"></i></a>
+                    <div class="drp-blank">
+                    <div class="dropdown">
+                    <a href="#"><img src="./make/icon-todo.svg" alt=""> Todo List</a>
+                    <a href="#"><img src="./make/icon-calendar.svg" alt=""> Calendar</a>
+                    <a href="#"><img src="./make/icon-reminders.svg" alt=""> Reminders</a>
+                    <a href="#"><img src="./make/icon-planning.svg" alt=""> Planning</a>
+          </div></div> </li>
+                <li class="comp" ><a href="#">Company <i class="fa-solid fa-angle-down"></i></a>
+          <div class="cpy"><div class="company">
+                    <a href="#">History</a>
+                    <a href="#">Our Team</a>
+                    <a href="#">Blog</a>
+                </div></div>
+                </li>
+                <li><a href="#">Careers</a></li>
+                <li class="about"><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="button">
+              <button class="login" >Login</button>
+            <button class="Register">Register</button>
+        </div>
+        <div class="slider">
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn" onclick="toggleShow('show')"></i>
+                <i class="fas fa-times" id="cancel" onclick="toggleShow('hide')"></i>
+            </label>
+            <nav >
+                <ul id="menu">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">About</a></li>
+                    
+            </nav>
+        </div>
+    </div>
+    <div class="content">
+        <div class="lol">
+       <div class="span"> <span>Make remote work</span>
+       </div>
+       <div class="p">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut magnam facilis non et modi rerum dolorum eius quibusdam sapiente aliquid.</p>
+        </div>
+        <div class="learn">
+            <button class="learn">Learn more</button>
+        </div>
+        <div class="data">
+            <img  class="meet" src="./make/client-databiz.svg" alt="">
+            <img class="meet" src="./make/client-audiophile.svg" alt="">
+            <img  class="meet"src="./make/client-meet.svg" alt="">
+            <img class="meet" src="./make/client-maker.svg" alt="">
+        </div>
+    </div>
+    <div class="image">
+    <img  src="/image-hero-desktop.png" alt="" >
+    </div>
+    <div class="mob-view">
+        <img src="./image-hero-mobile.png" alt="">
+    </div>
+</div>
+<script>
+    function toggleShow(togglebtn) {
+        if(togglebtn == 'show')
+        {   
+            menu.style.transform = "translateX(0vh)";
+        
+        }else if(togglebtn == 'hide')
+        {
+            menu.style.transform = "translateX(60vh)";
+        }
+                     
+    }
+</script>
+</body>
+</html>
